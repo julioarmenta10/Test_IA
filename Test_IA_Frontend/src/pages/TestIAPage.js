@@ -88,9 +88,9 @@ export const TestIAPage = () => {
         getAllOrders();
     }
     return (
-        <Box style={{ padding: 50 }}>
+        <Box style={{ padding: 50, paddingTop: 100 }}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                <Tabs value={value} variant="scrollable" onChange={handleChange} aria-label="basic tabs example">
                     <Tab label="Pending" {...a11yProps(0)} />
                     <Tab label="In Process" {...a11yProps(1)} />
                     <Tab label="Completed" {...a11yProps(2)} />
