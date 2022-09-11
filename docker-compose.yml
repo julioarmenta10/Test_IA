@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  sample-prod_frontend:
+    container_name: sample-prod_frontend
+    build:
+      context: ./Test_IA_Frontend
+      dockerfile: Dockerfile
+    ports:
+      - '1337:80'
+  sample-prod_backend:
+    container_name: sample-prod_backend
+    build:
+      context: ./Test_IA_Backend
+      dockerfile: /Test_IA_Backend/Dockerfile
+    ports:
+      - '8080:80'
