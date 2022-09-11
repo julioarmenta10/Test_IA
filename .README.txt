@@ -1,0 +1,33 @@
+********** CORRER CON DOCKER - DOCKER COMPOSE *************
+1.- Posicionarse en la carpeta raíz y correr el comando: docker compose up 
+
+2.- El Backend está configurado en el puerto 8080 y el Frontend en el 1337
+Backend: http://localhost:8080/api/Product
+Frontend: http://localhost:1337/
+
+
+********** CORRER DE FORMA LOCAL ***********
+1.- Clonar el Repositorio https://github.com/julioarmenta10/Test_IA.git
+
+2.- Para el Frontend entrar a la carpeta Test_IA_Frontend y desde la consola correr el comando
+NPM INSTALL o YARN INSTALL, una vez instalados los node_modules correr el comando NPM START o YARN 
+START .
+
+3.- Para el Backend entrar a la carpeta Test_IA_Backend y abrir la solución Test_IA_Backend.sln .
+De preferencia Limpiar y Recompilar la Solución antes de ejecutar.
+(El proyecto fue realizado con la Versión .NET Core 6 en Visual Studio 2022)
+
+
+URL GIT
+https://github.com/julioarmenta10/Test_IA.git
+
+
+NOTA: Deje publicados los dos proyectos en un servidor de Ubuntu proporcionado por Digital Ocean.
+************ URLS PUBLICAS *************
+URL Frontend
+http://159.89.85.255:1337/
+
+URL Backend
+http://159.89.85.255:8080/api/Product
+http://159.89.85.255:8080/api/Order
+
