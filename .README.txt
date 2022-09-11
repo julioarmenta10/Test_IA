@@ -18,6 +18,10 @@ De preferencia Limpiar y Recompilar la Solución antes de ejecutar.
 (El proyecto fue realizado con la Versión .NET Core 6 en Visual Studio 2022)
 
 
+*********** TEST API POSTMAN ************
+1.- En la carpeta raíz viene el archivo TestIA API.postman_collection el cual es para importar
+en Postman una colección con todas las APIS.
+
 URL GIT
 https://github.com/julioarmenta10/Test_IA.git
 
